@@ -128,30 +128,4 @@ public class LinkedList<type> {
 		s += " ]";
 		return s;
 	}
-
-//	public void removeIndex(int index) {
-//		size--;
-//		if(isEmpty()) {
-//			System.out.println("the linked list is empty"); size++;
-//		}else if(index >= 0 && index < size) {
-//			if(index == 0) {
-//				head = head.getNext();
-//			}else if(index == size-1) {
-//				current = head;
-//				int i =0;
-//				while(i != index) {
-//					if(i == index-1) {
-//						tail = current;
-//						tail.setNext(null);
-//					}
-//					i++;
-//					current = current.getNext();
-//				}
-//				current.setNext(null);
-//			}else {
-//				///////////////////////////////////////////////////////////////////////////////////////
-//			}
-//		}
-//	}
-
 }
